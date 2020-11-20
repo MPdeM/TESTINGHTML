@@ -1,4 +1,4 @@
-## Flask framework for web applications
+## Flask framework for web applications (basics :) )
 
 This simple application asks for your name and ..that is it. The goal was to understand design of a web application using Flask. 
 

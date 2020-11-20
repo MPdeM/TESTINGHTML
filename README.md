@@ -3,7 +3,7 @@
 This simple application asks for your name and ..that is it. The goal was to understand design of a web application using Flask. 
 
 Any web application follows some design principles (those thigs that you ask "why (..)?" and the answer is "because"). In general, for a flask web aplication the parts are: 
-  - application.py (or appy.py) contains the python code controling the application
+  - application.py (or app.py) contains the python code controling the application
   - requirements.txt contains a list of all libraries
   - statics/ folder with all static code 
   - templates/ folder with the different routes .html

@@ -13,6 +13,6 @@ Any web application follows some design principles (those thigs that you ask why
     - Controller: the piece connecting view and model. 
     
    
-  ![Prof David Malac CS50 Harvard](/statics/MVC_Design Patern.png)
+  ![Prof David Malac CS50 Harvard](statics\MVC_Design Patern.png)
   
   In this applcation, I use "GET" and "POST", and templates like layout.html 

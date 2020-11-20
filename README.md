@@ -8,6 +8,9 @@ Any web application follows some design principles (those thigs that you ask "wh
   - statics/ folder with all static code 
   - templates/ folder with the different routes .html
   
+ The app will be served at your local host http://127.0.0.1:5000/.
+
+  
 One of the common design patters is MVC - Model View Controller - 
     - Model: contains the application data (sql database, csv ,..) 
     - View: presents the model data to the user 

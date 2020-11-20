@@ -2,13 +2,11 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route("/")
+# by default method is "get" but to increase privacy "POSt"
+# for get-> request.args.get for post -> request.form.get
+@app.route("/", methods = ["GET","POST"])
 def index():
-    return render_template("index.html")
-    
-# by default is "get" but to increase privacy POSt
-# then request.args.get is replaced by request.form.get
-@app.route("/greet", methods = ["POST"])
-
-def greet():
-    return render_template("greet.html", name = request.form.get("name", "world!"))
+    if request.method == "GET":
+        return render_template("index.html")
+    if request.method == "POST":
+        return render_template("greet.html", name = request.form.get("name", "world!"))
